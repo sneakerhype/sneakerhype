@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon.ico">
+    <title>Browse products</title>
+    <meta data-rh="true" id="meta-og-description" property="og:description"
+        content="SneakerHype offers popular and brand name sneakers, shoes, and flats. Bringing innovative products and experiences to the masses. FREE shipping & returns.">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_prod.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand mb-0 h1">
+                SneakerHype
+            </a>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="product.html" class="nav-link">
+                            Browse
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Locations
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="#" class="dropdown-item">Location #1</a></li>
+                            <li><a href="#" class="dropdown-item">Location #2</a></li>
+                            <li><a href="#" class="dropdown-item">Location #3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="login.html" class="nav-link">
+                            Account
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">
+                            Cart
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="about.html" class="nav-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="contact.html" target="blank" class="nav-link">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <br>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide carousel-fade tspace" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="7000">
+                    <div class="overlay-image" style="background-image: url(img/Carousel/slide-1.png);"></div>
+                    <div class="description">
+                        <h1>Nike Vapormax Plus “Neon 95”</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores dolores impedit
+                            eaque
+                            alias corporis repellat quo excepturi delectus in, voluptatum, voluptatem perferendis
+                            praesentium
+                            pariatur consequatur aliquid, minima quis cum.</p>
+                        <a href="#" class="btn btn-lg btn-primary active">Shop Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="7000">
+                    <div class="overlay-image" style="background-image: url(img/Carousel/slide-2.png);"></div>
+                    <div class="description">
+                        <h1>Air Jordan 4 “Military Black”</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores dolores impedit
+                            eaque
+                            alias corporis repellat quo excepturi delectus in, voluptatum, voluptatem perferendis
+                            praesentium
+                            pariatur consequatur aliquid, minima quis cum.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Shop Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="7000">
+                    <div class="overlay-image" style="background-image: url(img/Carousel/slide-3.png);"></div>
+                    <div class="description">
+                        <h1>Air Jordan 1 Low “Light Arctic Pink”</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores dolores impedit
+                            eaque
+                            alias corporis repellat quo excepturi delectus in, voluptatum, voluptatem perferendis
+                            praesentium
+                            pariatur consequatur aliquid, minima quis cum.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                <span class="sr-only"></span>
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+                <span class="sr-only"></span>
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-12 text-center tspace">
+            <h1>Adidas Ultraboost 22 'White Turbo Flash Orange'</h1>
+        </div>
+        <div class="col-sm-12 ultra bspace">
+            <a href="#">
+                <img src="/img/Featured/feat_ss22_ultraboost_2.png" alt="Picture of Adidas SS22 Ultraboost"
+                    class=" fpic">
+            </a>
+        </div>
+        <div class="col-sm-12 ultra bspace justify-content-center">
+            <video controls autoplay>
+                <source src="/img/Featured/prod_ss22_ultraboost_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate iusto ad at quia provident
+                libero fuga asperiores inventore reprehenderit delectus odit porro aliquid omnis, quam id sequi
+                excepturi, dolores consequuntur vel nostrum commodi veritatis minima cumque. Impedit a quod nihil
+                corrupti error ut, officia consequuntur fugit modi deserunt, iste illo. Incidunt, quos nobis,
+                perspiciatis est repellat expedita non laudantium quisquam vero, magnam repellendus nemo perferendis
+                deserunt laborum necessitatibus libero.</p>
+        </div>
+    </div>
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="main-title">
+                <h1>Check out our offerings</h1>
+            </div>
+            <div class="item-list">
+                <div class="item">
+                    <div class="item-img">
+                        <a href="#">
+                            <img src="img/Products/prod1.png" alt="Picture of product 1">
+                        </a>
+                    </div>
+                    <div class="item-detail">
+                        <a href="#" class="item-name">Lorem ipsum</a>
+                        <div class="item-price">
+                            <span class="price">$216.00</span>
+                        </div>
+                        <a href="#" class="btn btn-lg btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <a href="#">
+                            <img src="img/Products/prod2.png" alt="Picture of product 2">
+                        </a>
+                    </div>
+                    <div class="item-detail">
+                        <a href="#" class="item-name">Lorem ipsum</a>
+                        <div class="item-price">
+                            <span class="price">$230.00</span>
+                        </div>
+                        <a href="#" class="btn btn-lg btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <a href="#">
+                            <img src="img/Products/prod3.png" alt="Picture of product 3">
+                        </a>
+                    </div>
+                    <div class="item-detail">
+                        <a href="#" class="item-name">Lorem ipsum</a>
+                        <div class="item-price">
+                            <span class="price">$219.00</span>
+                        </div>
+                        <a href="#" class="btn btn-lg btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <a href="#">
+                            <img src="img/Products/prod4.png" alt="Picture of product 4">
+                        </a>
+                    </div>
+                    <div class="item-detail">
+                        <a href="#" class="item-name">Lorem ipsum</a>
+                        <div class="item-price">
+                            <span class="price">$192.00</span>
+                        </div>
+                        <a href="#" class="btn btn-lg btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <a href="#">
+                            <img src="img/Products/prod5.png" alt="Picture of product 5">
+                        </a>
+                    </div>
+                    <div class="item-detail">
+                        <a href="#" class="item-name">Lorem ipsum</a>
+                        <div class="item-price">
+                            <span class="price">$146.00</span>
+                        </div>
+                        <a href="#" class="btn btn-lg btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <a href="#">
+                            <img src="img/Products/prod6.png" alt="Picture of product 6">
+                        </a>
+                    </div>
+                    <div class="item-detail">
+                        <a href="#" class="item-name">Lorem ipsum</a>
+                        <div class="item-price">
+                            <span class="price">$178.00</span>
+                        </div>
+                        <a href="#" class="btn btn-lg btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <a href="#">
+                            <img src="img/Products/prod7.png" alt="Picture of product 7">
+                        </a>
+                    </div>
+                    <div class="item-detail">
+                        <a href="#" class="item-name">Lorem ipsum</a>
+                        <div class="item-price">
+                            <span class="price">$132.00</span>
+                        </div>
+                        <a href="#" class="btn btn-lg btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <a href="#">
+                            <img src="img/Products/prod8.png" alt="Picture of product 8">
+                        </a>
+                    </div>
+                    <div class="item-detail">
+                        <a href="#" class="item-name">Lorem ipsum</a>
+                        <div class="item-price">
+                            <span class="price">$229.00</span>
+                        </div>
+                        <a href="#" class="btn btn-lg btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <a href="#">
+                            <img src="img/Products/prod9.png" alt="Picture of product 9">
+                        </a>
+                    </div>
+                    <div class="item-detail">
+                        <a href="#" class="item-name">Lorem ipsum</a>
+                        <div class="item-price">
+                            <span class="price">$167.00</span>
+                        </div>
+                        <a href="#" class="btn btn-lg btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-light pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-info">About Us</h5>
+                    <hr class="mb-4">
+                    <p>Bring out the sneakerhead in you.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, est!
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-info">Let Us Help</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="login.html" class="text-light" style="text-decoration: none;"> Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-light" style="text-decoration: none;"> Your Orders</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-light" style="text-decoration: none;"> Locations</a>
+                    </p>
+                    <p>
+                        <a href="contact.html" target="blank" class="text-light" style="text-decoration: none;"> Contact
+                            Us</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-info">Quick Links</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="index.html" class="text-light" style="text-decoration: none;">Home</a>
+                    </p>
+                    <p>
+                        <a href="about.html" class="text-light" style="text-decoration: none;">About</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-light" style="text-decoration: none;"> Events</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-light" style="text-decoration: none;"> Terms and Conditions</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-info">Contact</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <i class="fas fa-home mr-3"></i> 123 Street
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> info@sneakerhype.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> 123-456-7890
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class=" row d-flex justify-content-center">
+                <div>
+                    <p> &copy; Copyright ©2020 All rights reserved by
+                        <a href="#" style="text-decoration: none;">
+                            <strong class="text-info">SneakerHYPE</strong>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="text-center ">
+
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" target="blank" class="text-light"><i
+                                    class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.twitter.com" target="blank" class="text-light"><i
+                                    class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" target="blank" class=" text-light"><i
+                                    class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com" target="blank" class=" text-light"><i
+                                    class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

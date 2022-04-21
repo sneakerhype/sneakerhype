@@ -1,0 +1,64 @@
+/* SneakerHype Style Sheet */
+
+@font-face {
+  font-family: Monstserrat;
+  src: url(../fonts/Montserrat-Regular.woff);
+}
+
+@font-face {
+  font-family: Monstserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.woff);
+}
+
+.navbar { 
+  box-shadow: 0 5px 20px rgb(0 0 0 / 0.25);
+}
+
+body {
+  font-family: Monstserrat;
+}
+
+.tspace {
+  padding-top: 75px;
+}
+.bspace {
+  padding-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.popular a {
+  font-size: 16pt;
+  color:grey;
+  text-shadow:none
+}
+
+.featured a {
+  color:grey;
+}
+
+a.active,
+a:hover,
+.popular a:hover,
+.featured a:hover {
+  transition: .5s;
+  color: black;
+}
+
+img {
+  border-radius: .8%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.fpic,
+.gpic,
+.ppic,
+.abpic,
+video {
+  width: 100%;
+  height: auto;
+}
+
